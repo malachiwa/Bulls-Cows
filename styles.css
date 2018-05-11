@@ -1,0 +1,128 @@
+
+header {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  background-color: #ccccff;
+  margin: 10px auto;
+  font-size: 60px;
+}
+
+.startPlay {
+  margin-right: auto;
+  margin-left: auto;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #9eb82b);
+  background-image: -moz-linear-gradient(top, #3498db, #9eb82b);
+  background-image: -ms-linear-gradient(top, #3498db, #9eb82b);
+  background-image: -o-linear-gradient(top, #3498db, #9eb82b);
+  background-image: linear-gradient(to bottom, #3498db, #9eb82b);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 40px;
+  padding: 39px 40px 40px 40px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.startPlay:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #9eb82b);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #9eb82b);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #9eb82b);
+  background-image: -o-linear-gradient(top, #3cb0fd, #9eb82b);
+  background-image: linear-gradient(to bottom, #3cb0fd, #9eb82b);
+  text-decoration: none;
+}
+
+html {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: azure;
+}
+
+.guessField{
+  border: 1px dotted #999;
+  border-radius: 0;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.lastResult {
+  color: white;
+  padding: 3px;
+}
+
+p{
+  text-align: center;
+}
+
+wrapper {
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 30px;
+  overflow: hidden; 
+}
+
+.wrapperLeft {
+  float:left; 
+}
+
+wrapperRight {
+  float: right;
+}
+
+.guessUntilNow{
+  float:left; 
+  height: auto;
+  font-size: 18px;
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid ;
+}
+
+.guessesList {
+  float: right;
+}
+
+.table {
+  display: table;
+  text-align: center;
+
+}
+.table-row {
+  display: table-row;
+  text-align: center;
+
+}
+.table-cell {
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid black;
+}
+.table-row:nth-child(even) {
+  background: lightblue;
+}
+
+.error{
+  color: red;
+  margin: 15px;
+}
+
+.bottom{
+  position: absolute; 
+  bottom: 5px; 
+  background: #cccccc;
+}
